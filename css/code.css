@@ -1,0 +1,160 @@
+body{
+    background-color: #F7ECDE;
+ }
+ h1{
+    position: relative;
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    font-weight: 500;
+    
+    
+ }
+ h1::before{
+    content: "";
+    position: absolute;
+    width: 21%;
+    height: 27%;
+    left: 39.5%;
+    bottom: 12px;
+    background-color: #fec260 ;
+    transition: height 350ms;
+    z-index: -1;
+}
+h1:hover::before{
+    height: 55%;
+}
+.buttons button{
+    width: 150px;
+}
+
+
+
+.bookmark{
+    border-width: 2px 0 0px 0 ;
+    border-style: dotted ;
+    border-color: #352e28 ;
+
+
+}
+.bshadow{
+    box-shadow: #FEBE2E !important;
+}
+.bookmark h2{
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.btn-submit{
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    color: white;
+}
+.btn-visit{
+    background-color:#8A9E23;
+    color: white;
+}
+.btn-delete{
+    background-color: red;
+    color: white;
+}
+.rules li {
+    font-size: 18px;
+    padding-top: 10px;
+}
+.circles span {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.circles .c-1 {
+    background-color: #f15f5d;
+}
+.circles .c-2 {
+    background-color:#FEBE2E;
+}
+.circles .c-3 {
+    background-color: #4DB748;
+}
+.rules i{
+    color: #BB4120 !important;
+}
+.rules{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(33, 37, 41);
+    font-family: "PT Sans Caption", sans-serif;
+}
+.error-box {
+    position: fixed;
+    z-index: 1050;
+    .valid{
+        color: rgb(53, 46, 40);
+        font-size: 21px;
+        font-weight: 400;
+        font-family: "Bree Serif", serif;
+    }
+}
+
+.error-overlay {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.error-box .box-content {
+    z-index: 1060; 
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #d99c39;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.25rem #fec26055;
+    box-shadow: 0 0 0 0.25rem #fec26055;
+  }
+
+  @media (max-width: 992px){
+    .btitle{
+        font-size: 21px !important;
+    }
+    
+}
+.inner{
+    position: relative;
+}
+.layer{
+    position: absolute;
+    background-color: blanchedalmond;
+    top: 40%;
+    width: 400px;
+    left: 4%;
+}
+.inner img{
+    cursor: pointer;
+}
+.light-container{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.light-item{
+    width: 80%;
+    height: 70vh;
+background-image:url(../imges/1\ \(1\).jpg) ;
+background-position: center center;
+background-size: cover;
+position: relative;
+}
+#close{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.light-item i{
+font-size: 30px;
+margin: 10px;
+cursor: pointer;
+}
